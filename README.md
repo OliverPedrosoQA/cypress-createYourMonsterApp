@@ -8,11 +8,9 @@ This repository houses a test automation project utilizing Cypress and JavaScrip
 
 The game app that had its tests automated is a single page web app build with react. The purpose of this game is to create Monster cards by selecting the Monster, and filling out a form with the fields Name, HP, Attack, Defense and Speed. The app uses data-testids which is a best practice in test automation, and enables the use of selectors without the need of CSS elements being incorporated in the assertions.
 
-##  Project Structure
+##  Framework Architecture
 
-In order to create end-to-end tests the framework Cypress.io was installed and the Page Object Model (POM) was the architecture chosen for this project. 
-
-To enhance test organization and maintainability, this project leverages Custom Commands. These commands implement functions containing the test steps, which are then called by the Context functions in the spec files.
+To establish comprehensive end-to-end tests, the framework Cypress.io was incorporated into the project, leveraging the robust architectural approach known as the Page Object Model (POM). The adoption of POM provides a structured and modular framework that encapsulates the UI interactions within dedicated Page Objects. This design not only enhances code readability and maintainability but also promotes reusability, allowing efficient updates and modifications to be applied centrally in the Page Objects, thereby minimizing the impact on the overall test suite. By implementing POM, the automation framework gains scalability, ease of maintenance, and a clear separation of concerns, enabling teams to achieve a more streamlined and efficient test automation process.
 
 ## Pre-requirements
 
