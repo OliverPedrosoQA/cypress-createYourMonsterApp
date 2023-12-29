@@ -21,6 +21,7 @@ It is required to have Node.js and npm installed to run this project.
 ## Installation
 
 Run `npm install` (or `npm i` for the short version) to install the dev dependencies.
+Run `npm install cypress --save-dev` to install Cypress locally as a dev dependency for your project.
 
 ## Tests
 
